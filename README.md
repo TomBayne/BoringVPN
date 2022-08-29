@@ -18,4 +18,7 @@ A VPN that implements various encaspulation methods to create a tunnel regardles
 
 - The idea is that every avenue of 'network escape' that can be automated would be tried. Try to hide the payload in **any** protocol that is allowed internet access.
 
+## later plans.
+
 - Use compression to increase throughput of slow transport methods.
+- Possibly combine multiple tunneling methods to spread traffic and further avoid detection due to unnaturally large protocol traffic.
