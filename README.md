@@ -17,3 +17,5 @@ A VPN that implements various encaspulation methods to create a tunnel regardles
     - Other Pluggable transports (https://obfuscation.github.io/)
 
 - The idea is that every avenue of 'network escape' that can be automated would be tried. Try to hide the payload in **any** protocol that is allowed internet access.
+
+- Use compression to increase throughput of slow transport methods.
