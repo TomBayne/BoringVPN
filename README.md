@@ -14,11 +14,18 @@ A VPN that implements various encaspulation methods to create a tunnel regardles
     - ICMP Tunneling?
     - SSH Tunneling (would this even help?)
     - Check for TOR snowflake nodes, use them as 'exit points' (maybe possible on some large networks?)
+    - https://github.com/blanu/Dust
     - Other Pluggable transports (https://obfuscation.github.io/)
 
 - The idea is that every avenue of 'network escape' that can be automated would be tried. Try to hide the payload in **any** protocol that is allowed internet access.
 
-## later plans.
+## later plans - these should be investigated after the initial plan is complete.
 
 - Use compression to increase throughput of slow transport methods.
 - Possibly combine multiple tunneling methods to spread traffic and further avoid detection due to unnaturally large protocol traffic.
+- Refraction Networking - https://refraction.network/
+   - Assume the network allows access to one specific domain, refraction networking could be implemented if the ISP supports it.
+- For extremely slow connections, possibly implement a simple Client -> Server ASCII message system as a 'last ditch' comms method.
+   - This could be useful for things like pen-testing. Where you need to get a message to someone outside.
+   - even at **extremely** low bandwidth, a simple ASCII message could be passed over a TCP tunnel.
+   - This could be taken further and implement an entire Client -> Server stealth communication suite via the heavily obfuscated tunnel.
