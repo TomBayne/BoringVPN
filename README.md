@@ -9,7 +9,7 @@ A VPN that implements various encaspulation methods to create a tunnel regardles
     - DNS Tunneling
     - NTP Tunneling (?)
     - OBFS4
-    - Azure/AWS as a middleman (see tor 'meek' bridges)
+    - Azure/AWS as a middleman (domain fronting) (see tor 'meek' bridges)
     - MAC Spoofing (detect when an authorised device goes offline, and steal the MAC?)
     - ICMP Tunneling?
     - SSH Tunneling (would this even help?)
